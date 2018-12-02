@@ -20,8 +20,8 @@ import java.util.Set;
  * Created by 郭江彬 on 2018/11/30 0030.
  */
 @Service("ICategoryService")
-public class ICategoryServiceImpl implements ICategoryService {
-    private Logger logger= LoggerFactory.getLogger(ICategoryServiceImpl.class);
+public class CategoryServiceImpl implements ICategoryService {
+    private Logger logger= LoggerFactory.getLogger(CategoryServiceImpl.class);
     @Autowired
     private CategoryMapper categoryMapper;
 
@@ -61,7 +61,7 @@ public class ICategoryServiceImpl implements ICategoryService {
         return ServerResponse.createBySuccess(categoryList);
     }
 
-    public ServerResponse selectCategoryAndChildrenById(Integer categoryId) {
+    public ServerResponse<List<Integer>> selectCategoryAndChildrenById(Integer categoryId) {
         Set<Category> categorySet = Sets.newHashSet();
         findChildCategory(categorySet, categoryId);
         List<Integer> categoryIdList = Lists.newArrayList();
