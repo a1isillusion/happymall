@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by geely
+ * Created by 郭江彬 on 2018/12/2 0002.
  */
 public class FTPUtil {
 

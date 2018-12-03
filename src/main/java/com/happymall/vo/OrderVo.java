@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * Created by geely
+ * Created by 郭江彬 on 2018/12/2 0002.
  */
 public class OrderVo {
 

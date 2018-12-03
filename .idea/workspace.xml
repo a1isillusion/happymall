@@ -2,32 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb754c09-b936-40f6-8444-64f1d0c51d6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/BigDecimalUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderItemVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderProductVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/happymall/controller/backend/CategoryManageController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/happymall/service/ICategoryService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/happymall/service/impl/ICategoryServiceImpl.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/ICategoryServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/CategoryServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/controller/protal/UserController.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/controller/protal/UserController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/dao/CategoryMapper.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/dao/CategoryMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/pojo/Category.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/pojo/Category.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/IUserService.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/IUserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/impl/UserServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/CartController.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/impl/ICategoryServiceImpl.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/happymall/service/impl/FileServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/happymall/service/impl/FileServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/common/Const.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/common/Const.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/dao/ProductMapper.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/dao/ProductMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/ICategoryService.class" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/com/happymall/service/ICategoryService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/common/Const.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/common/Const.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/dao/ProductMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/dao/ProductMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/service/ICategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/service/ICategoryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/dao/CartMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/dao/CartMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/util/BigDecimalUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/BigDecimalUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/util/MD5Util.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/MD5Util.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/util/PropertiesUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/util/PropertiesUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderItemVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderItemVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderProductVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderProductVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java" afterPath="$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/mappers/CategoryMapper.xml" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/mappers/CategoryMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/mappers/ProductMapper.xml" afterPath="$PROJECT_DIR$/target/happymall/WEB-INF/classes/mappers/ProductMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/happymall/index.jsp" afterPath="$PROJECT_DIR$/target/happymall/index.jsp" />
     </list>
     <ignored path="happymall.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,138 +58,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java">
+      <file leaf-file-name="CartVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/CartVo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/ProductServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#8168#8177#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Const.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/Const.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="144" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1122#1123#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1592#1593#0" expanded="true" />
-                <element signature="e#1628#1629#0" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1695#1696#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2590#2591#0" expanded="true" />
-                <element signature="e#2622#2623#0" expanded="true" />
-                <element signature="e#2657#2658#0" expanded="true" />
-                <element signature="e#2945#2946#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
-                <element signature="e#3013#3014#0" expanded="true" />
-                <element signature="e#3048#3049#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/ServerResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.196428">
-              <caret line="196" column="11" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
-              <folding>
-                <marker date="1543675354438" expanded="true" signature="1536:1645" placeholder="select from mmall_product" />
-                <marker date="1543675354438" expanded="true" signature="1732:1795" placeholder="delete from " />
-                <marker date="1543675354438" expanded="true" signature="1879:2384" placeholder="insert into mmall_product... " />
-                <marker date="1543675354438" expanded="true" signature="4477:5574" placeholder="update mmall... " />
-                <marker date="1543675354438" expanded="true" signature="5670:6216" placeholder="update mmall... " />
-                <marker date="1543675354438" expanded="true" signature="6287:6376" placeholder="SELECT from mmall_product" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/ProductMapper.java">
+      <file leaf-file-name="OrderItemVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderItemVo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FTPUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProductManageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/ProductManageController.java">
+      <file leaf-file-name="OrderProductVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderProductVo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IProductService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/IProductService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IFileService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/IFileService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductDetailVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductListVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippingVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CartMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.107143">
+              <caret line="103" column="11" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="28" />
+              <folding>
+                <marker date="1543760902416" expanded="true" signature="1091:1197" placeholder="select from mmall_cart" />
+                <marker date="1543760902416" expanded="true" signature="1284:1344" placeholder="delete from " />
+                <marker date="1543760902416" expanded="true" signature="1425:1713" placeholder="insert into mmall_cart... " />
+                <marker date="1543760902416" expanded="true" signature="3068:3714" placeholder="update mmall... " />
+                <marker date="1543760902416" expanded="true" signature="3807:4130" placeholder="update mmall... " />
+                <marker date="1543760902416" expanded="true" signature="4237:4367" placeholder="SELECT from mmall_cart" />
+                <marker date="1543760902416" expanded="true" signature="4465:4561" placeholder="SELECT from mmall_cart" />
+                <marker date="1543760902416" expanded="true" signature="4670:4744" placeholder="SELECT count... mmall_cart" />
+                <marker date="1543760902416" expanded="true" signature="5437:5518" placeholder="select IFNUL... " />
+                <marker date="1543760902416" expanded="true" signature="5626:5742" placeholder="SELECT from mmall_cart" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+              <folding>
+                <marker date="1543760935494" expanded="true" signature="1088:1198" placeholder="select from mmall_category" />
+                <marker date="1543760935494" expanded="true" signature="1285:1349" placeholder="delete from " />
+                <marker date="1543760935494" expanded="true" signature="1434:1716" placeholder="insert into mmall_category... " />
+                <marker date="1543760935494" expanded="true" signature="3067:3704" placeholder="update mmall... " />
+                <marker date="1543760935494" expanded="true" signature="3801:4118" placeholder="update mmall... " />
+                <marker date="1543760935494" expanded="true" signature="4230:4334" placeholder="select from mmall_category" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayInfoMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8865248">
+              <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
+              <folding>
+                <marker date="1543760971042" expanded="true" signature="1220:1330" placeholder="select from mmall_pay_info" />
+                <marker date="1543760971042" expanded="true" signature="1417:1481" placeholder="delete from " />
+                <marker date="1543760971042" expanded="true" signature="1565:1928" placeholder="insert into mmall_pay_info... " />
+                <marker date="1543760971042" expanded="true" signature="3503:4294" placeholder="update mmall... " />
+                <marker date="1543760971042" expanded="true" signature="4390:4794" placeholder="update mmall... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -211,31 +203,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resource/datasource.properties" />
-        <option value="$PROJECT_DIR$/src/main/resource/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/CartMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/OrderItemMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/OrderMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/PayInfoMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/ShippingMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/pojo/OrderItem.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/common/ResponseCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/MD5Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/PropertiesUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/common/ServerResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/common/TokenCache.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/UserManagerController.java" />
@@ -243,7 +216,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/CategoryMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/pojo/Category.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/ICategoryServiceImpl.java" />
@@ -252,14 +224,36 @@
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/CategoryServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/ICategoryService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/ProductManageController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/ProductMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/ProductServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/IProductService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/happymall/common/Const.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/ProductController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/CarController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/dao/CartMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/ICartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/service/impl/CartServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/BigDecimalUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/MD5Util.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/util/PropertiesUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/CartVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderItemVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderProductVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java" />
       </list>
     </option>
   </component>
@@ -349,10 +343,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
-    <option name="y" value="135" />
+    <option name="x" value="400" />
+    <option name="y" value="130" />
     <option name="width" value="1316" />
-    <option name="height" value="893" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -405,8 +399,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -855,6 +847,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -877,7 +871,7 @@
       <recent name="C:\Users\Administrator\Desktop\happymall\src\main\java\com\happymall\dao" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DateTimeUtil">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration default="false" name="DateTimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1438,32 +1432,43 @@
       <workItem from="1543539905032" duration="3929000" />
       <workItem from="1543543865690" duration="28525000" />
       <workItem from="1543665634896" duration="6533000" />
+      <workItem from="1543711374945" duration="17246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43400000" />
+    <option name="totallyTimeSpent" value="60646000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="452" y="135" width="1316" height="893" extended-state="0" />
+    <frame x="400" y="130" width="1316" height="830" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3276316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32671958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149492" sideWeight="0.50318474" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28289473" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3149492" sideWeight="0.4968153" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29936305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329602" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1474,7 +1479,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1490,7 +1494,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1499,179 +1503,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/pojo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/pojo/OrderItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7556818">
-          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
-          <folding>
-            <marker date="1543544475832" expanded="true" signature="1091:1197" placeholder="select from mmall_cart" />
-            <marker date="1543544475832" expanded="true" signature="1284:1344" placeholder="delete from " />
-            <marker date="1543544475832" expanded="true" signature="1425:1713" placeholder="insert into mmall_cart... " />
-            <marker date="1543544475832" expanded="true" signature="3068:3700" placeholder="update mmall... " />
-            <marker date="1543544475832" expanded="true" signature="3793:4116" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-94.17857">
-          <caret line="162" column="25" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-          <folding>
-            <marker date="1543544475770" expanded="true" signature="1512:1624" placeholder="select from mmall_order_item" />
-            <marker date="1543544475770" expanded="true" signature="1711:1777" placeholder="delete from " />
-            <marker date="1543544475770" expanded="true" signature="1863:2371" placeholder="insert into mmall_order_item... " />
-            <marker date="1543544475770" expanded="true" signature="4423:5519" placeholder="update mmall... " />
-            <marker date="1543544475770" expanded="true" signature="5617:6173" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.714286">
-          <caret line="194" column="27" selection-start-line="194" selection-start-column="27" selection-end-line="194" selection-end-column="27" />
-          <folding>
-            <marker date="1543544475795" expanded="true" signature="1741:1848" placeholder="select from mmall_order" />
-            <marker date="1543544475795" expanded="true" signature="1935:1996" placeholder="delete from " />
-            <marker date="1543544475795" expanded="true" signature="2078:2694" placeholder="insert into mmall_order... " />
-            <marker date="1543544475795" expanded="true" signature="5141:6475" placeholder="update mmall... " />
-            <marker date="1543544475795" expanded="true" signature="6569:7241" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.928572">
-          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
-          <folding>
-            <marker date="1543544475858" expanded="true" signature="1220:1330" placeholder="select from mmall_pay_info" />
-            <marker date="1543544475858" expanded="true" signature="1417:1481" placeholder="delete from " />
-            <marker date="1543544475858" expanded="true" signature="1565:1928" placeholder="insert into mmall_pay_info... " />
-            <marker date="1543544475858" expanded="true" signature="3503:4280" placeholder="update mmall... " />
-            <marker date="1543544475858" expanded="true" signature="4376:4780" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.767857">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6785714">
-          <caret line="53" column="82" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/zfbinfo.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext-datasource.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.05357143">
-          <caret line="59" column="82" selection-start-line="59" selection-start-column="82" selection-end-line="59" selection-end-column="82" />
-          <folding>
-            <element signature="e#1553#1576#0" expanded="false" />
-            <element signature="e#1614#1625#0" expanded="false" />
-            <element signature="e#1817#1836#0" expanded="false" />
-            <element signature="e#1905#1922#0" expanded="false" />
-            <element signature="e#2037#2052#0" expanded="false" />
-            <element signature="e#2156#2171#0" expanded="false" />
-            <element signature="e#2264#2279#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.785715">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.785714">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/MD5Util.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/TokenCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#925#926#0" expanded="false" />
-            <element signature="e#966#967#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/ShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1686,102 +1517,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.892858">
           <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1566#1567#0" expanded="false" />
-            <element signature="e#1616#1617#0" expanded="false" />
-            <element signature="e#1782#1783#0" expanded="false" />
-            <element signature="e#1839#1840#0" expanded="false" />
-            <element signature="e#2417#2418#0" expanded="false" />
-            <element signature="e#2477#2478#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/UserManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="209" column="9" selection-start-line="209" selection-start-column="9" selection-end-line="209" selection-end-column="9" />
-          <folding>
-            <marker date="1543579597809" expanded="true" signature="1331:1437" placeholder="select from mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="1524:1584" placeholder="delete from " />
-            <marker date="1543579597809" expanded="true" signature="1665:2065" placeholder="insert into mmall_user... " />
-            <marker date="1543579597809" expanded="true" signature="3834:4739" placeholder="update mmall... " />
-            <marker date="1543579597809" expanded="true" signature="4832:5274" placeholder="update mmall... " />
-            <marker date="1543579597809" expanded="true" signature="5361:5393" placeholder="SELECT count... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="5361:5425" placeholder="SELECT count... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="5510:5568" placeholder="select count... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="5661:5827" placeholder="SELECT -- *?... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="5930:6002" placeholder="select quest... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="6085:6213" placeholder="SELECT count... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="6292:6396" placeholder="update mmall... " />
-            <marker date="1543579597809" expanded="true" signature="6481:6576" placeholder="SELECT count... mmall_user" />
-            <marker date="1543579597809" expanded="true" signature="6667:6749" placeholder="select count... mmall_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-84.14286">
-          <caret line="124" column="2" selection-start-line="124" selection-start-column="2" selection-end-line="124" selection-end-column="2" />
-          <folding>
-            <marker date="1543544475807" expanded="true" signature="1650:1760" placeholder="select from mmall_shipping" />
-            <marker date="1543544475807" expanded="true" signature="1847:1911" placeholder="delete from " />
-            <marker date="1543544475807" expanded="true" signature="1996:2615" placeholder="insert into mmall_shipping... " />
-            <marker date="1543544475807" expanded="true" signature="4929:6206" placeholder="update mmall... " />
-            <marker date="1543544475807" expanded="true" signature="6303:6962" placeholder="update mmall... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="122" column="26" selection-start-line="122" selection-start-column="26" selection-end-line="122" selection-end-column="26" />
-          <folding>
-            <marker date="1543588648344" expanded="true" signature="1088:1198" placeholder="select from mmall_category" />
-            <marker date="1543588648344" expanded="true" signature="1285:1349" placeholder="delete from " />
-            <marker date="1543588648344" expanded="true" signature="1434:1716" placeholder="insert into mmall_category... " />
-            <marker date="1543588648344" expanded="true" signature="3067:3690" placeholder="update mmall... " />
-            <marker date="1543588648344" expanded="true" signature="3787:4104" placeholder="update mmall... " />
-            <marker date="1543588648344" expanded="true" signature="4216:4320" placeholder="select from mmall_category" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/CategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1825,79 +1560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#469#470#0" expanded="false" />
-            <element signature="e#496#497#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/CategoryManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/ICategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/pojo/Product.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1914,42 +1576,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/PropertiesUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/ServerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#939#940#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#998#999#0" expanded="false" />
+            <element signature="e#1028#1029#0" expanded="false" />
+            <element signature="e#1054#1055#0" expanded="false" />
+            <element signature="e#1080#1081#0" expanded="false" />
+            <element signature="e#1107#1108#0" expanded="false" />
+            <element signature="e#1768#1769#0" expanded="false" />
+            <element signature="e#1842#1843#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="67" selection-start-line="0" selection-start-column="67" selection-end-line="0" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/CategoryMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/BigDecimalUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderItemMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="87.53571">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1543544475770" expanded="true" signature="1512:1624" placeholder="select from mmall_order_item" />
+            <marker date="1543544475770" expanded="true" signature="1711:1777" placeholder="delete from " />
+            <marker date="1543544475770" expanded="true" signature="1863:2371" placeholder="insert into mmall_order_item... " />
+            <marker date="1543544475770" expanded="true" signature="4423:5519" placeholder="update mmall... " />
+            <marker date="1543544475770" expanded="true" signature="5617:6173" placeholder="update mmall... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/OrderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.214286">
+          <caret line="180" column="10" selection-start-line="180" selection-start-column="10" selection-end-line="180" selection-end-column="10" />
+          <folding>
+            <marker date="1543760962240" expanded="true" signature="1741:1848" placeholder="select from mmall_order" />
+            <marker date="1543760962240" expanded="true" signature="1935:1996" placeholder="delete from " />
+            <marker date="1543760962240" expanded="true" signature="2078:2694" placeholder="insert into mmall_order... " />
+            <marker date="1543760962240" expanded="true" signature="5141:6489" placeholder="update mmall... " />
+            <marker date="1543760962240" expanded="true" signature="6583:7255" placeholder="update mmall... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ShippingMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.571428">
+          <caret line="158" column="18" selection-start-line="158" selection-start-column="18" selection-end-line="158" selection-end-column="18" />
+          <folding>
+            <marker date="1543544475807" expanded="true" signature="1650:1760" placeholder="select from mmall_shipping" />
+            <marker date="1543544475807" expanded="true" signature="1847:1911" placeholder="delete from " />
+            <marker date="1543544475807" expanded="true" signature="1996:2615" placeholder="insert into mmall_shipping... " />
+            <marker date="1543544475807" expanded="true" signature="4929:6206" placeholder="update mmall... " />
+            <marker date="1543544475807" expanded="true" signature="6303:6962" placeholder="update mmall... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-59.785713">
+          <caret line="209" column="9" selection-start-line="209" selection-start-column="9" selection-end-line="209" selection-end-column="9" />
+          <folding>
+            <marker date="1543579597809" expanded="true" signature="1331:1437" placeholder="select from mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="1524:1584" placeholder="delete from " />
+            <marker date="1543579597809" expanded="true" signature="1665:2065" placeholder="insert into mmall_user... " />
+            <marker date="1543579597809" expanded="true" signature="3834:4739" placeholder="update mmall... " />
+            <marker date="1543579597809" expanded="true" signature="4832:5274" placeholder="update mmall... " />
+            <marker date="1543579597809" expanded="true" signature="5361:5393" placeholder="SELECT count... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="5361:5425" placeholder="SELECT count... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="5510:5568" placeholder="select count... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="5661:5827" placeholder="SELECT -- *?... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="5930:6002" placeholder="select quest... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="6085:6213" placeholder="SELECT count... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="6292:6396" placeholder="update mmall... " />
+            <marker date="1543579597809" expanded="true" signature="6481:6576" placeholder="SELECT count... mmall_user" />
+            <marker date="1543579597809" expanded="true" signature="6667:6749" placeholder="select count... mmall_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.928571">
+          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding>
+            <marker date="1543760980098" expanded="true" signature="1536:1645" placeholder="select from mmall_product" />
+            <marker date="1543760980098" expanded="true" signature="1732:1795" placeholder="delete from " />
+            <marker date="1543760980098" expanded="true" signature="1879:2384" placeholder="insert into mmall_product... " />
+            <marker date="1543760980098" expanded="true" signature="4477:5588" placeholder="update mmall... " />
+            <marker date="1543760980098" expanded="true" signature="5684:6230" placeholder="update mmall... " />
+            <marker date="1543760980098" expanded="true" signature="6301:6390" placeholder="SELECT from mmall_product" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/ProductMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/Const.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/ResponseCode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="e#441#442#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/TokenCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/CategoryManageController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="74" column="66" selection-start-line="74" selection-start-column="66" selection-end-line="74" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/ProductManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/UserManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/protal/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="66" selection-start-line="55" selection-start-column="66" selection-end-line="55" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/CartMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/pojo/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/CartServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="51" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="203" column="13" selection-start-line="203" selection-start-column="13" selection-end-line="203" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/ICartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/ICategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1962,102 +1868,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/FileServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/IProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/controller/backend/ProductManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/ProductMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.196428">
-          <caret line="196" column="11" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="11" />
-          <folding>
-            <marker date="1543675354438" expanded="true" signature="1536:1645" placeholder="select from mmall_product" />
-            <marker date="1543675354438" expanded="true" signature="1732:1795" placeholder="delete from " />
-            <marker date="1543675354438" expanded="true" signature="1879:2384" placeholder="insert into mmall_product... " />
-            <marker date="1543675354438" expanded="true" signature="4477:5574" placeholder="update mmall... " />
-            <marker date="1543675354438" expanded="true" signature="5670:6216" placeholder="update mmall... " />
-            <marker date="1543675354438" expanded="true" signature="6287:6376" placeholder="SELECT from mmall_product" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/dao/ProductMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/IProductService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/BigDecimalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/DateTimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/FTPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/CartProductVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/CartVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderItemVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderProductVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/OrderVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductDetailVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ProductListVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/vo/ShippingVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CartMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.107143">
+          <caret line="103" column="11" selection-start-line="103" selection-start-column="8" selection-end-line="103" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1543760902416" expanded="true" signature="1091:1197" placeholder="select from mmall_cart" />
+            <marker date="1543760902416" expanded="true" signature="1284:1344" placeholder="delete from " />
+            <marker date="1543760902416" expanded="true" signature="1425:1713" placeholder="insert into mmall_cart... " />
+            <marker date="1543760902416" expanded="true" signature="3068:3714" placeholder="update mmall... " />
+            <marker date="1543760902416" expanded="true" signature="3807:4130" placeholder="update mmall... " />
+            <marker date="1543760902416" expanded="true" signature="4237:4367" placeholder="SELECT from mmall_cart" />
+            <marker date="1543760902416" expanded="true" signature="4465:4561" placeholder="SELECT from mmall_cart" />
+            <marker date="1543760902416" expanded="true" signature="4670:4744" placeholder="SELECT count... mmall_cart" />
+            <marker date="1543760902416" expanded="true" signature="5437:5518" placeholder="select IFNUL... " />
+            <marker date="1543760902416" expanded="true" signature="5626:5742" placeholder="SELECT from mmall_cart" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/service/impl/ProductServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/CategoryMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="170" column="5" selection-start-line="170" selection-start-column="5" selection-end-line="170" selection-end-column="5" />
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8168#8177#0" expanded="true" />
+            <marker date="1543760935494" expanded="true" signature="1088:1198" placeholder="select from mmall_category" />
+            <marker date="1543760935494" expanded="true" signature="1285:1349" placeholder="delete from " />
+            <marker date="1543760935494" expanded="true" signature="1434:1716" placeholder="insert into mmall_category... " />
+            <marker date="1543760935494" expanded="true" signature="3067:3704" placeholder="update mmall... " />
+            <marker date="1543760935494" expanded="true" signature="3801:4118" placeholder="update mmall... " />
+            <marker date="1543760935494" expanded="true" signature="4230:4334" placeholder="select from mmall_category" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/happymall/common/Const.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mappers/PayInfoMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="144" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.8865248">
+          <caret line="114" column="28" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1695#1696#0" expanded="true" />
-            <element signature="e#2554#2555#0" expanded="true" />
-            <element signature="e#2590#2591#0" expanded="true" />
-            <element signature="e#2622#2623#0" expanded="true" />
-            <element signature="e#2657#2658#0" expanded="true" />
-            <element signature="e#2945#2946#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3013#3014#0" expanded="true" />
-            <element signature="e#3048#3049#0" expanded="true" />
+            <marker date="1543760971042" expanded="true" signature="1220:1330" placeholder="select from mmall_pay_info" />
+            <marker date="1543760971042" expanded="true" signature="1417:1481" placeholder="delete from " />
+            <marker date="1543760971042" expanded="true" signature="1565:1928" placeholder="insert into mmall_pay_info... " />
+            <marker date="1543760971042" expanded="true" signature="3503:4294" placeholder="update mmall... " />
+            <marker date="1543760971042" expanded="true" signature="4390:4794" placeholder="update mmall... " />
           </folding>
         </state>
       </provider>

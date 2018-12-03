@@ -3,7 +3,7 @@ package com.happymall.util;
 import java.math.BigDecimal;
 
 /**
- * Created by geely
+ * Created by 郭江彬 on 2018/12/2 0002.
  */
 public class BigDecimalUtil {
 
